@@ -10,13 +10,15 @@ namespace InyeccionDependencia_IS2.Clases
 {
     public class CiudadGuatemala: ICiudad, IExampleScopedService, IExampleSingletonService, IExampleTransientService
     {
+        int id;
         public string Nombre { get; set; }
-        public string[] ListaDepartamentos { get; set; }
-
+        public List<IDepartamento> ListaDepartamentos { get; set; }
 
         public CiudadGuatemala()
         {
             Nombre = "Ciudad de Guatemala";
+            id = 0;
+            ListaDepartamentos = new List<IDepartamento>();
         }
         public void CrearDepartamentoPolicias()
         {
