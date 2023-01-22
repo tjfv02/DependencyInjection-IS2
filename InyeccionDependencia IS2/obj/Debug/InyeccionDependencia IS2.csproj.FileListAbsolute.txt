@@ -1,0 +1,8 @@
+C:\Users\ASUS TUF\Desktop\Hackathon 2022\Hackathon-2022\InyeccionDependencia IS2\InyeccionDependencia IS2\bin\Debug\InyeccionDependencia IS2.exe.config
+C:\Users\ASUS TUF\Desktop\Hackathon 2022\Hackathon-2022\InyeccionDependencia IS2\InyeccionDependencia IS2\bin\Debug\InyeccionDependencia IS2.exe
+C:\Users\ASUS TUF\Desktop\Hackathon 2022\Hackathon-2022\InyeccionDependencia IS2\InyeccionDependencia IS2\bin\Debug\InyeccionDependencia IS2.pdb
+C:\Users\ASUS TUF\Desktop\Hackathon 2022\Hackathon-2022\InyeccionDependencia IS2\InyeccionDependencia IS2\obj\Debug\InyeccionDependencia IS2.csproj.AssemblyReference.cache
+C:\Users\ASUS TUF\Desktop\Hackathon 2022\Hackathon-2022\InyeccionDependencia IS2\InyeccionDependencia IS2\obj\Debug\InyeccionDependencia IS2.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS TUF\Desktop\Hackathon 2022\Hackathon-2022\InyeccionDependencia IS2\InyeccionDependencia IS2\obj\Debug\InyeccionDependencia IS2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF\Desktop\Hackathon 2022\Hackathon-2022\InyeccionDependencia IS2\InyeccionDependencia IS2\obj\Debug\InyeccionDependencia IS2.exe
+C:\Users\ASUS TUF\Desktop\Hackathon 2022\Hackathon-2022\InyeccionDependencia IS2\InyeccionDependencia IS2\obj\Debug\InyeccionDependencia IS2.pdb
