@@ -9,7 +9,8 @@ namespace InyeccionDependencia_IS2.Interfaces
     public interface ICiudad
     {
         string Nombre { get; set; }
-        void CrearDepartamento();
-        void CobrarImpuestos();
+        List<IDepartamento> ListaDepartamentos { get; set; }
+        void CrearDepartamentoPolicias();
+        void CrearDepartamentoBomberos();
     }
 }

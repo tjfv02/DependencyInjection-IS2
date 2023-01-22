@@ -9,8 +9,9 @@ namespace InyeccionDependencia_IS2.Interfaces
     public interface IPersona
     {
         string Name { get; }
-        int Age { get; }
         int CUI { get; }
+
+        void Trabajar();
 
     }
 }

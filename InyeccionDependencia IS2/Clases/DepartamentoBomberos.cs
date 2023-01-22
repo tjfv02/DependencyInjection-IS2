@@ -1,4 +1,5 @@
 ﻿using InyeccionDependencia_IS2.Interfaces;
+using InyeccionDependencia_IS2.Interfaces.InterfacesDI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,12 @@ using System.Threading.Tasks;
 
 namespace InyeccionDependencia_IS2.Clases
 {
-    public class DepartamentoBomberos: IDepartamento
+    public class DepartamentoBomberos: IDepartamento, IExampleScopedService, IExampleSingletonService, IExampleTransientService
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
+
+        public List<IPersona> ListaPersonal { get; set; }
 
         public DepartamentoBomberos(int id, string nombre)
         {
@@ -20,11 +23,7 @@ namespace InyeccionDependencia_IS2.Clases
 
         public void ContratarPersonal()
         {
-            Console.WriteLine("Contratanto un Nuevo Policía...");
-        }
-        public void AsignarTarea()
-        {
-            Console.WriteLine("Asignando Tarea...");
+            Console.WriteLine("Contratanto un Nuevo Bombero...");
         }
 
     }

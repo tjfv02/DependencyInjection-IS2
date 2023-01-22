@@ -1,4 +1,6 @@
-﻿using System;
+﻿using InyeccionDependencia_IS2.Interfaces;
+using InyeccionDependencia_IS2.Interfaces.InterfacesDI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,17 +8,13 @@ using System.Threading.Tasks;
 
 namespace InyeccionDependencia_IS2
 {
-    public class Bombero
+    public class Bombero: IPersona, IExampleScopedService, IExampleSingletonService, IExampleTransientService
     {
-        Edificio edificio;
-        public Bombero() 
+        public string Name { get; }
+        public int CUI { get; }
+        public void Trabajar()
         {
-            this.edificio = new Edificio();
-        }
-        public void ApagarFuego()
-        {
-            this.edificio.Incendiar();
-            Console.WriteLine("Apagando Fuego...");
+            Console.WriteLine("Trabajando Felizmente :)");
         }
     }
 }

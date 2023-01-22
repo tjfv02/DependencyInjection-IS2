@@ -10,7 +10,7 @@ namespace InyeccionDependencia_IS2.Interfaces
     {
         int Id { get; set; }
         string Nombre { get; set;}
+        List<IPersona> ListaPersonal { get; set; }
         void ContratarPersonal();
-        void AsignarTarea();
     }
 }

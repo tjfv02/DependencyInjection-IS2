@@ -1,4 +1,5 @@
 ﻿using InyeccionDependencia_IS2.Interfaces;
+using InyeccionDependencia_IS2.Interfaces.InterfacesDI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,23 +8,23 @@ using System.Threading.Tasks;
 
 namespace InyeccionDependencia_IS2.Clases
 {
-    public class CiudadGuatemala: ICiudad
+    public class CiudadGuatemala: ICiudad, IExampleScopedService, IExampleSingletonService, IExampleTransientService
     {
         public string Nombre { get; set; }
+        public string[] ListaDepartamentos { get; set; }
+
 
         public CiudadGuatemala()
         {
             Nombre = "Ciudad de Guatemala";
         }
-
-        public void CobrarImpuestos()
+        public void CrearDepartamentoPolicias()
         {
-            Console.WriteLine("Cobrando Impuestos"); ;
+            Console.WriteLine("Creando departamento de Policias...");
         }
-
-        public void CrearDepartamento()
+        public void CrearDepartamentoBomberos()
         {
-            Console.WriteLine("Creando departamento de: ");
+            Console.WriteLine("Creando departamento de Bomberos...");
         }
     }
 }
